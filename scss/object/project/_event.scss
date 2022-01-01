@@ -1,0 +1,39 @@
+.p-event__header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.p-event__image{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1070px;
+
+    & > img{
+    height: 170px;
+    object-fit: cover;
+    }
+}
+.p-event__inner{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1070px;
+
+    background: #A69580;
+    // background: #1B3659;
+    // color: #fff;
+    color: #F0F2F2;
+     font-weight: 700;
+     padding-bottom: 60px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.p-event__main{
+    width: 90%;
+    margin: 0 auto;
+}
+.p-event__item{
+    border-bottom: 1px solid #F0F2F2;
+
+    & > p{
+        margin-bottom: 0;
+    }
+}

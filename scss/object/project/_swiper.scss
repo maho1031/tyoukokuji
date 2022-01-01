@@ -1,0 +1,39 @@
+.swiper-container {
+    width: 100%;
+    height: 250px;
+    // overflow:visible !important;
+}
+.swiper-slide{
+    & > img{
+        width: 100%;
+        // max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    width: 50px;
+    height: 50px;
+}
+
+// .swiper-button-prev:after {
+//     // width: 50px;
+//     // height: 50px;
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     content: "\f137";
+//     color: #F0F2F2; /* 色を白に */  
+//     background: $Black;
+//     // background: #333;
+//     border-radius: 60%;
+//     margin-left: 20px; /* マージンを追加 */
+//   }
+//   .swiper-button-next:after {
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     content: "\f138";
+//     color: #F0F2F2;
+//     margin-right: 20px;
+//     background: $Black;
+//     border-radius: 60%;
+//   }

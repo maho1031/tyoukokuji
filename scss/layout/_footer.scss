@@ -1,0 +1,20 @@
+.p-footer{  
+    width: 100%;
+    padding: 80px 0 20px 0 ;
+    background: $Black;
+    color: #F0F2F2;
+}
+.p-footer__inner{
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+    text-align: center;
+}
+.p-footer__body{
+    font-size: $font-size_12;
+}
+.p-footer__title{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5px; 
+}

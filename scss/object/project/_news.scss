@@ -1,0 +1,104 @@
+.p-news{
+    width: 100%;
+    // margin: 0 auto;
+    // max-width: $contentMaxWidth;
+}
+.p-news__header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.p-news__container{
+    // width: 90%;
+    // margin: 0 auto;
+    // max-width: $contentMaxWidth;
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    // margin-top: 50%;;
+    // width: 100%;
+    // height: 90%;
+    // background: #F0F2F2;
+
+    &::before{
+        content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // margin: 0 auto;
+    // background: rgba(240,242,242,0.6);
+    // background: #F0F2F2;
+    // background: rgba(203,219,215,0.3)
+    background: rgba(197,200,217,0.3);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    }
+}
+.p-news__inner{
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+    height: 400px;
+    
+}
+.p-news__item{
+    border-bottom: 1px solid #525461;
+    font-size: $font-size_14;
+    margin-top: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.p-news__link{
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.p-news__btn{
+    text-align: center;
+
+}
+
+// ====================================
+// newsContent
+// ====================================
+.p-newsContent{
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+    padding-top: 100px;
+
+}
+.p-newsContent__header{
+    width: 72%;
+    margin: 0 auto;
+    text-align: center;
+}
+.p-newsContent__inner{
+    background: #F0F2F2;
+    padding: 10px 10px 30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+// ====================================
+// newsContent-article
+// ====================================
+.p-newsContent__header-article{
+    width: 82%;
+    margin: 0 auto;
+    text-align: center;
+}
+.p-newsContent__body-article{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 980px;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgba(197,200,217,0.3);
+}
+.p-newsContet__title{
+    font-size: $font-size_14;
+    margin-top: 5px;
+}

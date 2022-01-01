@@ -1,0 +1,98 @@
+.p-hero__img{
+        height: 700px;
+}
+.p-news__header{
+    width: 20%;
+}
+.p-news__inner{
+    width: 50%;
+}
+.p-about__header{
+    width: 34%;
+}
+.p-about__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p-about__text{
+    padding-left: 30px;
+   width: 300px;
+   margin: 0;
+}
+ .p-about__imagecontainer, .p-about__text{
+    flex-basis: 50%;
+}
+.p-guide__header{
+    width: 24%;
+}
+.p-guide__inner{
+    width: 50%;
+    margin: 0 auto;
+    max-width: 530px;
+}
+.p-guide__text{
+    width: 70%;
+    margin: 0 auto;
+}
+.p-event__header{
+    width: 22%;
+}
+.p-event__image > img {
+    height: 300px;
+}
+.p-gallery__header{
+    width: 27%;
+}
+.p-gallery__item{
+    text-align: right;
+}
+.p-gallery__icon{
+    padding-right: 30px;
+}
+.p-access__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p-access__header{
+    width: 23%;
+}
+.p-access__item{
+    flex-basis: 47%;
+}
+.p-question__header{
+    width: 34%;
+}
+.p-footer__inner{
+    text-align: left;
+}
+.p-footer__title{
+    text-align: left;
+    padding-left: 35px;
+}
+
+// ====================================
+// aboutContent
+// ====================================
+.p-aboutContent__header {
+    width: 29%;
+}
+.p-aboutContent__image {
+    height: 350px;
+}
+
+// ====================================
+// newsContent
+// ====================================
+
+.p-newsContent__header{
+    width: 32%;
+}
+
+// ====================================
+// pagination
+// ====================================
+.prev, .top, .next {
+    flex-basis: 12%;
+}

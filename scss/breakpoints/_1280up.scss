@@ -1,0 +1,58 @@
+.p-news__header{
+    width: 12%;
+}
+.p-about__header{
+    width: 23%;
+}
+.p-about__image {
+    height: 330px;
+}
+.p-about__imagecontainer, .p-about__text{
+    flex-basis: 46%;
+}
+.p-guide__header{
+    width: 13%;
+}
+.p-event__header {
+    width: 12%;
+    max-width: 172px;
+}
+.p-event__image > img {
+    height: 350px;
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+.p-gallery__header{
+    width: 19%;
+}
+.p-access__header {
+    width: 16%;
+}
+.p-question__header {
+    width: 34%;
+    max-width: 250px;
+}
+// ====================================
+// aboutContent
+// ====================================
+.p-aboutContent__header {
+    width: 16%;
+}
+
+// ====================================
+// newsContent
+// ====================================
+
+.p-newsContent__header{
+    width: 21%;
+}
+
+
+// ====================================
+// pagination
+// ====================================
+.prev, .top, .next {
+    flex-basis: 8%;
+}

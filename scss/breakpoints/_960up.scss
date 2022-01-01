@@ -1,0 +1,144 @@
+.l-header{
+     height: 210px;
+     top: -40px;
+}
+.p-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: $contentMaxWidth;
+
+}
+.p-nav{
+    left: 0;
+    background: none;
+    padding-top: 200px;
+    height: 50px;
+    margin-top: 160px;
+    padding: 0;
+
+}
+.p-header__mobileMenu-btn{
+    display: none;
+}
+.p-nav__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    // margin-top: 60px;
+}
+// .p-nav__menu-item{
+//     border: none;
+//     align-items: center;
+//     width: 120px;
+   
+    
+
+//     &:nth-of-type(1){
+//         border: none;
+//     }
+// }
+
+.p-nav__menu-link{
+    border: none;
+    align-items: center;
+    width: 120px;
+
+    color: #333;
+    font-size: $font-size_14;
+    padding: 3px 0;
+
+    &:hover{
+        background: #333;
+        color: #fff;
+        transition: all .5s;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &:nth-of-type(1){
+        border: none;
+    }
+}
+.p-hero{
+    padding-top: 150px;
+    width: 100%;
+}
+
+.p-news__header{
+    width: 15%;
+}
+.p-about,.p-guide,.p-event,.p-gallery,.p-access,.p-question{
+    padding-top: 150px !important;
+}
+.p-about__header{
+    width: 25%;
+}
+.p-about__imagecontainer, .p-about__text{
+    flex-basis: 46%;
+}
+.p-about__image{
+    height: 300px;
+}
+.p-guide__comment{
+    text-align: center;
+}
+.p-guide__header{
+    width: 17%;
+}
+.p-event__header {
+    width: 16%;
+}
+.p-event__main {
+    width: 46%;
+    max-width: 980px;
+}
+.p-event__image > img {
+    height: 350px;
+}
+.p-gallery__header{
+    width: 20%;
+}
+.p-access__header {
+    width: 18%;
+}
+.p-access__item{
+    flex-basis: 44%;
+}
+.p-question__header {
+    width: 46%;
+}
+.p-question{
+    width: 50%;
+}
+
+// ====================================
+// aboutContent
+// ====================================
+.p-aboutContent{
+    padding-top: 165px;
+}
+.p-aboutContent__image {
+    height: 400px;
+}
+.p-aboutContent__header {
+    width: 22%;
+}
+
+// ====================================
+// newsContent
+// ====================================
+.p-newsContent{
+    padding-top: 165px;
+}
+
+.p-newsContent__header{
+    width: 23%;
+}
+// ====================================
+// pagination
+// ====================================
+.prev, .top, .next {
+    flex-basis: 9%;
+}

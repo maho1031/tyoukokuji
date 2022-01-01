@@ -1,0 +1,30 @@
+.p-gallery{
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+}
+.p-gallery__header{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.p-gallery__item{
+    width: 100%;
+    text-align: center;
+}
+.p-gallery__text{
+    font-size: $font-size_14;
+
+    &:hover{
+        color:#A69580;
+        text-decoration: underline;
+    }
+}
+.p-gallery__icon-insta{
+    font-size: 45px;
+    color: $Black;
+
+    &:hover{
+        color:#A69580;
+    }
+}

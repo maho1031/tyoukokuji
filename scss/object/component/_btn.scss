@@ -1,0 +1,23 @@
+.c-btn{
+    position: relative;
+    display: inline-block;
+    text-decoration: none !important;
+    padding: 10px 50px;
+    border: solid 1px #525461;
+    vertical-align: middle; 
+    margin: 10px auto;
+    transition: all 0.3s;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #fff;
+    font-size: $font-size_14;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.c-btn__news{
+    &:hover{
+        background: #525461;
+        color: #fff;
+    }
+}

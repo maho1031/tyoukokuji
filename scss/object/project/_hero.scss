@@ -1,0 +1,17 @@
+.p-hero{
+    padding-top: 80px;
+    width: 90%;
+    // max-width: $contentMaxWidth;
+    margin: 0 auto;
+}
+.p-hero__img{
+    // background-image: url('../images/mainimage.jpg');
+    // background-attachment:fixed;
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    // position: fixed;
+    object-fit: cover;
+}
